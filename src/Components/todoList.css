@@ -1,0 +1,53 @@
+
+.todo-app{
+    background:url("./Todoimage.jpg");
+    height: 520px;
+    text-align: center;
+    color:  #dd1658;
+    font-family: "permanent marker", cursive;
+    margin-top: -20px;
+    
+}
+.todo-app span{
+    font-size: 18px;
+    font-family: "permanent marker", cursive;
+    color: rgb(219, 26, 74);
+  
+}
+.todo-appinp{
+    background-color: rgb(31, 46, 46);
+    height: 350px;
+    width:40%;
+    margin-bottom: 300px;
+    margin-left: 280px;
+    border-radius: 20px;
+}
+.todo-applist{
+    color: rgb(19, 193, 216);
+   font-size: 21px;
+   font-family:"Times New Roman";
+   margin-right: 10px;
+   max-height: 250px;
+   overflow: auto;
+}
+ ul{
+   
+    list-style: none;
+    padding: 0px;
+    margin: 0px; 
+} 
+@media screen and (max-width:628px){
+    .todo-appinp{
+        background-color: #1f2e2e;
+        height: 350px;
+        margin-bottom: 300px;
+        margin: auto;
+        width:90%;
+        border-radius: 20px;
+    }
+}
+
+
+
+
+
